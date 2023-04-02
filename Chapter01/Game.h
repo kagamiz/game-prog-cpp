@@ -7,7 +7,7 @@
 // ----------------------------------------------------------------
 
 #pragma once
-#include "SDL/SDL.h"
+#include "SDL.h"
 
 // Vector2 struct just stores x/y coordinates
 // (for now)
@@ -35,14 +35,14 @@ private:
 	void GenerateOutput();
 
 	// Window created by SDL
-	SDL_Window* mWindow;
+	SDL_Window *mWindow;
 	// Renderer for 2D drawing
-	SDL_Renderer* mRenderer;
+	SDL_Renderer *mRenderer;
 	// Number of ticks since start of game
 	Uint32 mTicksCount;
 	// Game should continue to run
 	bool mIsRunning;
-	
+
 	// Pong specific
 	// Direction of paddle
 	int mPaddleDir;
