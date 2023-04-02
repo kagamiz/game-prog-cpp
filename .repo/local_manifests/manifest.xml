@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github" fetch="http://github.com" />
+
+    <project name="libsdl-org/SDL" path="external/SDL" remote="github" revision="refs/tags/release-2.0.0" /> 
+</manifest>

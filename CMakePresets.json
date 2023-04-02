@@ -1,0 +1,22 @@
+{
+    "version": 6,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 23,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "default-debug",
+            "displayName": "Default Config (Debug)",
+            "binaryDir": "${sourceDir}/build/debug",
+            "toolchainFile": "${sourceDir}/toolchain.cmake"
+        },
+        {
+            "name": "default-release",
+            "displayName": "Default Config (Release)",
+            "binaryDir": "${sourceDir}/build/release",
+            "toolchainFile": "${sourceDir}/toolchain.cmake"
+        }
+    ]
+}

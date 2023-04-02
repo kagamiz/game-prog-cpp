@@ -10,4 +10,11 @@ Release/
 .vs
 Chapter14/Assets/Saved.gplevel
 Chapter14/Assets/*.bin
-External/FMOD
+build/
+external/
+
+/.repo/*
+!/.repo/local_manifests
+!/.repo/manifest.xml
+
+.vscode
