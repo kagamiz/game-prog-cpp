@@ -1,8 +1,12 @@
 set(target Chapter01)
 
+file(GLOB headers *.h)
+file(GLOB cpps *.cpp)
+
+
 add_executable(${target}
-    Game.cpp
-    Main.cpp
+    ${headers}
+    ${cpps}
 )
 
 target_include_directories(${target} PRIVATE
