@@ -17,4 +17,6 @@ external/
 !/.repo/local_manifests
 !/.repo/manifest.xml
 
+prebuilt/
+
 .vscode
